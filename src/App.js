@@ -95,7 +95,7 @@ function App() {
         setContent(completeData);
         setTitle(Title)
         if (Title === "曾經做過哪些軟體工程技術相關的學習？") {
-          setHyperlink("123")
+          setHyperlink("https://github.com/isaaclao3272/Test3")
         } else {
           setHyperlink("")
         };
@@ -125,7 +125,7 @@ function App() {
           ))}
           <br></br>
           {hyperLink &&
-          <a href= {hyperLink}>link</a>
+          <a href= {hyperLink}>請點擊查看</a>
         }
         </article>
       </Body>
